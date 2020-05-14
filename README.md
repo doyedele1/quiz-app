@@ -1,3 +1,5 @@
-# This app was designed to test your general knowledge skills. 
+# A Quiz Application
 
-## Check it out here --> https://general-knowledge-quiz.herokuapp.com/
+### This app was designed to test your general knowledge skills. 
+
+#### Check it out here --> https://general-knowledge-quiz.herokuapp.com/
