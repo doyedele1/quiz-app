@@ -28,7 +28,7 @@ fetch(
             const answerChoices = [...loadedQuestion.incorrect_answers];
             formattedQuestion.answer = Math.floor(Math.random() * 3) + 1;
             answerChoices.splice(
-                formattedQuestion.answer -1,
+                formattedQuestion.answer - 1,
                 0,
                 loadedQuestion.correct_answer
             );
@@ -49,7 +49,7 @@ fetch(
 
 //ASSIGN CONSTANTS
 const CORRECT_BONUS = 10;
-const MAX_QUESTIONS = 3;
+const MAX_QUESTIONS = 10;
 
 startGame = () => {
     questionCounter = 0;
